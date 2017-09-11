@@ -7,7 +7,7 @@
 
 ### WaterMonster:
 
-clase pública WaterMonster extiende Monster {
+clase pública WaterMonster  implements Monster {
 	
 	public void TipoAtaque () {
 		System.out.println ("Mi tipo de ataque es Agua");
@@ -16,7 +16,7 @@ clase pública WaterMonster extiende Monster {
 
 ### FireMonster: 
 
-clase pública FireMonster extiende Monster {
+clase pública FireMonster  implements Monster {
 	
 	public void TipoAtaque () {
 		System.out.println ("Mi tipo de ataque es Fuego");
@@ -26,7 +26,7 @@ clase pública FireMonster extiende Monster {
 
 ### StoneMonster:
 
-clase pública StoneMonster extiende Monster {
+clase pública StoneMonster  implements Monster {
 	
 	
 	public void TipoAtaque () {
@@ -37,7 +37,7 @@ clase pública StoneMonster extiende Monster {
 
 ### PolimorfismoMain:
 
-clase pública PolimorfismoMain {
+clase pública PolimorfismoMain  implements Monster {
 	
 	public static void Main (String [] args) {
 		Monstruo m ^ {1}, m2, m ^ {3};
@@ -57,7 +57,7 @@ clase pública PolimorfismoMain {
 
 ### Monster: 
 
-clase pública Monster {
+clase interface Monster {
 	
 	
 	Ataque de cuerdas;
